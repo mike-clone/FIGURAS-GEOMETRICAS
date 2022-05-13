@@ -7,10 +7,10 @@ namespace FIGURAS_GEOMETRICAS
         static void Main(string[] args)
         {
             double area, lado;
-            Figura ac1;//crear objeto
-            ac1 = new Figura();//instanciamiento
+            Figura figura;//crear objeto
+            figura = new Figura();//instanciamiento
             Figura ac2 = new Figura();
-            area = ac1.areaCuadrado(5);
+            area = figura.areaCuadrado(5);
             Console.WriteLine(area);
 
             Console.WriteLine("Ingrese Lado");
@@ -18,7 +18,7 @@ namespace FIGURAS_GEOMETRICAS
             Console.WriteLine(ac2.areaCuadrado(lado));
 
             //ac1.area(3);
-            Console.WriteLine("Area del Circulo" + ac1.areaCi(4));
+            Console.WriteLine("Area del Circulo" + figura.areaCi(4));
             Console.Read();
             Console.WriteLine("Hello World!");
         }
