@@ -20,7 +20,11 @@ namespace FIGURAS_GEOMETRICAS
             //ac1.area(3);
             Console.WriteLine("Area del Circulo" + figura.areaCi(4));
             Console.Read();
-            Console.WriteLine("Hello World!");// quitar este hola mundo
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Area del Circulo" + figura.areaCi(4));
+            Console.Read();
+            Console.WriteLine("Hello World!");
+            Console.BackgroundColor = ConsoleColor.Green;
         }
     }
 
