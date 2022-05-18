@@ -21,6 +21,10 @@ namespace FIGURAS_GEOMETRICAS
             Console.WriteLine("Area del Circulo" + figura.areaCi(4));
             Console.Read();
             Console.WriteLine("Hello World!");// quitar este hola mundo
+
+            //addin torres
+            Console.WriteLine("estoy de regreso");
+              Console.WriteLine("jajajaja");
         }
     }
 
@@ -38,6 +42,9 @@ namespace FIGURAS_GEOMETRICAS
         {
             areaCirculo = PI * radio * radio;
             return areaCirculo;
+
+
+
         }
 
     }
